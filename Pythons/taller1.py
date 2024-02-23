@@ -106,3 +106,5 @@ pregunta2 = input("¿Cual tu actor favorito?")
 
 print("El nombre de tu cerveza sera ", (pregunta[0:2] + pregunta2[0:2]))
 
+
+
