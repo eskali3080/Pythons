@@ -79,22 +79,30 @@
 # print("Bienvenido ", nombre, "tienes ", edad, "años" )
 # print(f"Bienvenido ",nombre, "en 2026 tendrás ", (edad)+2)
 
-dineroV = 3
-boleto = 0.9
+# dineroV = 3
+# boleto = 0.9
 
-compra = dineroV/boleto 
+# compra = dineroV/boleto 
 
 
 
-if compra >= 1 and compra < 2:
-    print(f"Puede compra 1 y le sobra: {dineroV - boleto}")
+# if compra >= 1 and compra < 2:
+#     print(f"Puede compra 1 y le sobra: {dineroV - boleto}")
 
-elif compra >= 2 and compra < 3:
-    print(f"Puede comprar 2 y le sobra: {dineroV - boleto*2}")
+# elif compra >= 2 and compra < 3:
+#     print(f"Puede comprar 2 y le sobra: {dineroV - boleto*2}")
 
-elif compra >=3:
-    # Nos ahorramos otra linea de código haciendo la operación directo en el print
-    # resultado = str(dineroV - boleto*3)
-    print(f"Puede comprar y le sobra: {dineroV - boleto*3}")
+# elif compra >=3:
+#     # Nos ahorramos otra linea de código haciendo la operación directo en el print
+#     # resultado = str(dineroV - boleto*3)
+#     print(f"Puede comprar y le sobra: {dineroV - boleto*3}")
 
-else: print("No compra nada")
+# else: print("No compra nada")
+
+# Proyecto 1 
+
+pregunta = input("¿Nombra tu marca de ropa preferida?")
+pregunta2 = input("¿Cual tu actor favorito?")
+
+print("El nombre de tu cerveza sera ", (pregunta[0:2] + pregunta2[0:2]))
+
